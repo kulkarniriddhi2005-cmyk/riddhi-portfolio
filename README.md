@@ -56,9 +56,9 @@ https://fashionbyrid.freedev.app/home.php
 * Qdrant (Concepts)
 * Neo4j (Concepts)
 
-## Screenshot
+## Screenshots
 
-![Portfolio Screenshot](screenshots/home.png)
+![Portfolio Screenshots](screenshots/home.png)
 
 ## Contact
 
