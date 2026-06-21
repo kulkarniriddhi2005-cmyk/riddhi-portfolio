@@ -58,9 +58,21 @@ https://fashionbyrid.freedev.app/home.php
 
 ## Screenshots
 
-![Portfolio Screenshots](Screenshots/home.png)
+### Home
+
+![Home](Screenshots/home.png)
+
+### About
+
+![About](Screenshots/about.png)
+
+### Contact
+
+![Contact](Screenshots/contact.png)
 
 ## Contact
+
+**Phone:** +91 7385072350
 
 **Email:** [kulkarniriddhi2005@gmail.com](mailto:kulkarniriddhi2005@gmail.com)
 
