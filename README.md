@@ -58,7 +58,7 @@ https://fashionbyrid.freedev.app/home.php
 
 ## Screenshots
 
-![Portfolio Screenshots](screenshots/home.png)
+![Portfolio Screenshots](Screenshots/home.png)
 
 ## Contact
 
