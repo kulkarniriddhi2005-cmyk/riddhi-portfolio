@@ -137,7 +137,7 @@ const Contact = () => (
       </p>
       <div className="social-links">
         <a href="mailto:kulkarniriddhi2005@gmail.com">Email Me</a>
-        <a href="https://www.linkedin.com/in/riddhi-kulkarni-68865b2a1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/riddhi-kulkarni-011566322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://github.com/kulkarniriddhi2005-cmyk" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
       <p className="contact-text mt-lg" style={{ fontSize: '0.9rem' }}>
