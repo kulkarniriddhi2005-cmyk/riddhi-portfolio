@@ -26,9 +26,31 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 800;
+}
+
+.nav-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  flex-shrink: 0;
+}
+
+.hero-photo {
+  width: clamp(140px, 30vw, 180px);
+  height: clamp(140px, 30vw, 180px);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-subtle);
 }
 
 .nav-links {

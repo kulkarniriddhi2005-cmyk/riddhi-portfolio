@@ -1,10 +1,25 @@
 import React from 'react';
 import './App.css';
+import profilePhoto from './assets/images/profile-photo.jpg';
+
+const PROFILE_ALT =
+  'Professional headshot of Riddhi Kulkarni smiling, wearing a light green pleated blouse against a blurred architectural background.';
 
 const Navbar = () => (
   <nav className="navbar glass-panel">
     <div className="container nav-container">
-      <div className="logo text-gradient">Riddhi Kulkarni</div>
+      <div className="logo">
+        <img
+          src={profilePhoto}
+          alt={PROFILE_ALT}
+          className="nav-avatar"
+          width={40}
+          height={40}
+          loading="eager"
+          decoding="async"
+        />
+        <span className="text-gradient">Riddhi Kulkarni</span>
+      </div>
       <ul className="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -19,6 +34,15 @@ const Navbar = () => (
 const Hero = () => (
   <section id="about" className="hero-section container animate-fade-in">
     <div className="hero-content">
+      <img
+        src={profilePhoto}
+        alt={PROFILE_ALT}
+        className="hero-photo"
+        width={180}
+        height={180}
+        loading="eager"
+        decoding="async"
+      />
       <h2 className="greeting">Hi there, I'm</h2>
       <h1 className="name text-gradient">Riddhi Kulkarni</h1>
       <h3 className="role">Final-Year Computer Science & Engineering (AI & ML) Student</h3>
